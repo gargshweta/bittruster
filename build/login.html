@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Login page</title>
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center bg-white py-12 px-4 sm:px-6 lg:px-8 login-form">
+        <div class="max-w-xl w-full">
+          <div>
+            <img class="mx-auto h-30 w-auto" src="../images/logo.png" alt="Workflow">
+            <h5 class="mt-16 text-center tracking-widest font-semibold">
+                WELCOME BACK
+            </h5>
+            <p class="text-center">
+                Sign in with your BitTruster ID
+            </p>
+          </div>
+          <form class="mt-8 space-y-10" action="#" method="POST">
+            <input type="hidden" name="remember" value="true">
+            <div class="">
+              <div class="mb-4">
+                <label for="BitTruster-ID" class="sr-only">BitTruster ID</label>
+                <input name="BitTruster-ID" type="email" autocomplete="email" required class="appearance-none rounded-none relative block w-full px-4 py-3 border-3 border-gray-custom text-black focus:outline-none focus:ring-1 focus:ring-red-600 sm:text-sm" placeholder="BitTruster ID">
+              </div>
+              <div>
+                <label for="password" class="sr-only">Password</label>
+                <input id="password" name="password" type="password" autocomplete="current-password" required class="appearance-none rounded-none relative block w-full px-4 py-3 border-3 border-gray-custom text-black focus:outline-none focus:ring-1 focus:ring-red-600 sm:text-sm" placeholder="Password">
+              </div>
+            </div>
+
+            <div class="flex justify-center">
+                <button type="submit" class="hover:bg-black py-2 px-16 font-20 font-medium text-white bg-red-color focus:outline-none transition-all duration-500 ease-in-out capitalize">
+                    Log In
+                </button>
+              </div>
+      
+            <div class="flex items-center justify-center">
+             
+              <div class="forget-sec mt-6">
+                <a href="#" class="font-regular red-color hover:text-black transition-all duration-500 ease-in-out">
+                    Forget BitTruster ID or Password      
+                </a>
+                <a href="sign-up.html" class="font-regular capitalize red-color hover:text-black transition-all duration-500 ease-in-out">
+                    Sign up
+                </a>
+              </div>
+            </div>
+      
+           
+          </form>
+        </div>
+      </div>
+</body>
+</html>
