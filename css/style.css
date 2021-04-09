@@ -350,7 +350,7 @@ footer h6 {
     padding-bottom: 30px;
 }
 .test-item::after {
-	content: ' " ';
+	content: "“";
 	font-size: 210px;
 	line-height: 80px;
 	color: #e22b38;
